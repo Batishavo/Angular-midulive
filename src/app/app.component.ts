@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'midudev-app';
+  changeTitle(){
+    this.title = 'changed';
+  }
 }
